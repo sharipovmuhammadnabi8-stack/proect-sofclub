@@ -1,19 +1,317 @@
 *{
     margin: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    z-index: 10000;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    box-shadow: 0px 0px 10px 0px ;
 }
 .box{
-    width: 400px;
-    height: 400px;
-    background-color: red;
-    border-radius: 10px;
-    margin: auto;
-    margin-top: 100px;
-    transition-property: all;
-    transition-duration: 3s;
-    transition-delay: 1s;
+    width: 100%;
+    height: 2000px;
+    background-color: pink;
+    margin-top: 90px;
 }
-.box:hover{
-    background-color: green;
-    border-radius: 50%;
-    rotate: 10turn;
+.svg{
+display: flex;
+margin-left: 100px;
+margin-top: 10px;
+}
+.svg h1{
+margin-top: -3px;
+}
+.home{
+    display: flex;
+    gap: 30px;
+    margin-top: -30px;
+    margin-left: 400px;
+}
+.Sign{
+    margin-left: 100px;
+    background-color: rgba(53, 175, 191, 1);
+    padding: 7px;
+    border-radius: 10px;
+    margin-top: -3px;
+}
+.Sign:hover{
+    background: rgb(138, 86, 86);
+    color: white;
+    cursor: pointer;
+}
+.make{
+    margin-top: 250px;
+    width: 20%;
+    margin-left: 100px;
+}
+.make p{
+    margin-top: 20px;
+}
+.make h2{
+    background-color: rgba(53, 175, 191, 1);
+    width: 150px;
+    text-align: center;
+    padding: 7px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.glavni{
+    display: flex;
+}
+.surat svg{
+    margin-top: 190px;
+    margin-left: 300px;
+}
+.img{
+    position: absolute;
+    top: 86px;
+    left: 500px;
+    width: 800px;
+    
+}
+.qalam{
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 1);
+    width: 80px;
+    height: 80px;
+    box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.552); 
+    border-radius: 10px;
+    margin-left: 250px;
+    margin-top: -130px;
+}
+.qalam img{
+    width: 50px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.qalam1{
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 1);
+    width: 80px;
+    height: 80px;
+    box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.552); 
+    border-radius: 10px;
+    margin-left: 750px;
+    margin-top: -150px;
+}
+.qalam1 img{
+    width: 50px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.qalam2{
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 1);
+    width: 80px;
+    height: 80px;
+    box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.552); 
+    border-radius: 10px;
+    margin-left: 769px;
+    margin-top: -500px;
+}
+.qalam2 img{
+    width: 50px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.qalam3{
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 1);
+    width: 80px;
+    height: 80px;
+    box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.552); 
+    border-radius: 10px;
+    margin-left: 230px;
+    margin-top: -540px;
+}
+.qalam3 img{
+    width: 50px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.hh{
+    margin-top: 100px;
+    text-align: center;
+}
+.pp{
+    margin-top: 30px;
+    width: 40%;
+    text-align: center;
+}
+.hp{
+    justify-content: center;
+}
+.websayt{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 70px;
+}
+.web1{
+    background-color: rgba(163, 224, 232, 1);
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+.web1 svg{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.web1 h2{
+    text-align: center;
+}
+.web1 p{
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.web2{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+.web2 svg{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.web2 h2{
+font-size: 20px;
+text-align: center;
+}
+.web2 p{
+    margin-left: 0px;
+    margin-top: 10px;
+    text-align: center;
+}
+.web3{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+.web3 svg{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.web3 h2{
+font-size: 20px;
+text-align: center;
+}
+.web3 p{
+    margin-left: 0px;
+    margin-top: 10px;
+    text-align: center;
+}
+.web4{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+.web4 svg{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.web4 h2{
+font-size: 20px;
+text-align: center;
+}
+.web4 p{
+    margin-left: 0px;
+    margin-top: 10px;
+    text-align: center;
+}
+.bodyy  img{
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    color: blue;
+    z-index: 2; 
+    margin-top: 100px;
+}
+.bodyy h1{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 40%;
+    z-index: 8;color: rgb(102, 81, 81);
+    color: white;
+}
+.bodyy p{
+    position: absolute;
+    z-index: 8;
+    text-align: center;
+    width: 50%;
+    margin-top: 280px;
+    color: white;
+    margin-left: 25%;
+}
+.bodyy svg{
+    position: absolute;
+    margin-top: 400px;
+    z-index: 9;
+    margin-left: 48%;
+}
+.bodyy{
+    background-image: url(./Background\ \(8\).png);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    position: relative;
+    margin-top: 100px;
+}
+.footer{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(44, 53, 62, 1);
+}
+.money{
+width: 300px;
+height: 300px;
+/* background-color: red; */
+display: flex;
+flex-direction: column;
+line-height: 40px;
+font-size: 20px;
+color: white;
+}
+.money button{
+    padding: 10px;
+    /* border: none; */
+    border-radius: 10px;
+    width: 150px;
+    background-color: transparent;
+    color: white;
+    margin-top: 10px;
+}
+.fotericon{
+    display: flex;
+    width: 80%;
+    padding-top: 80px;
+    margin: auto;
+    justify-content: space-evenly;
+    gap: 100px;
+}
+.home1{
+    display: flex;
+    color: white;
+    gap: 20px;
+    margin-left: 150px;
+}
+.icon{
+    display: flex;
+    gap: 370px;
 }
